@@ -1,3 +1,6 @@
+
+//Problem 2: Find the sum of all even fibonacci numbers below 4 million.
+
 public class NumberPatternGenerator {
 
     public int sumOfEvenFibonacciPattern(int limit){
