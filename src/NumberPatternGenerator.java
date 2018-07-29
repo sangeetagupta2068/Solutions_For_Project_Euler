@@ -23,6 +23,7 @@ public class NumberPatternGenerator {
 
     public static void  main(String... args){
 
+
         NumberPatternGenerator numberPatternGenerator = new NumberPatternGenerator();
         System.out.println("Sum is: " + numberPatternGenerator.sumOfEvenFibonacciPattern(4000000));
     }
