@@ -15,15 +15,16 @@ public class NumberGenerator {
 
         }
         return  number;
+
     }
 
     public static void main(String... args){
-
 
         NumberGenerator numberGenerator = new NumberGenerator();
         long startTime = System.currentTimeMillis();
         System.out.println(numberGenerator.getNumberDivisibleByAll());
         long endTime = System.currentTimeMillis() - startTime;
         System.out.println(endTime);
+
     }
 }
