@@ -29,7 +29,9 @@ public class Calculator {
     public static void main(String... args) {
 
         Calculator calculator = new Calculator();
-        System.out.println("Sum of multiples of 3 and 5 is: " + calculator.calculateMultiples(3,5,1000));
-
+        long startTime = System.nanoTime();
+        System.out.println(calculator.calculateMultiples(3,5,1000));
+        System.out.println(System.nanoTime() - startTime);
     }
+
 }
