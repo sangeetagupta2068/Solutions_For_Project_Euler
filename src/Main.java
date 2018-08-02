@@ -1,5 +1,6 @@
 //Problem 9: This is the solution to the Problem 9 wherein we need to find the product of the
 //pythagorean triplet whose sum is 1000.
+//This solution takes about 10 milliseconds to execute.
 
 public class Main {
 
@@ -42,7 +43,9 @@ public class Main {
 
         public static void main(String... args) {
             PythagoreanTripletGenerator pythagoreanTripletGenerator = new PythagoreanTripletGenerator();
+            long startTime = System.currentTimeMillis();
             print(Long.toString(pythagoreanTripletGenerator.generateSpecialTripletProduct(1000)));
+            print(Long.toString(System.currentTimeMillis() - startTime));
         }
     }
 }
