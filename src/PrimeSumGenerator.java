@@ -25,7 +25,7 @@ public class PrimeSumGenerator {
             return true;
         }
 
-        private BigInteger getPrimeNumber(BigInteger limit){
+        private BigInteger getPrimeSum(BigInteger limit){
 
             BigInteger bigInteger = new BigInteger("2");
             BigInteger counter = new BigInteger("3");
@@ -48,7 +48,7 @@ public class PrimeSumGenerator {
             PrimeSumGenerator primeSumGenerator = new PrimeSumGenerator();
 
             long startTime = System.currentTimeMillis();
-            System.out.println(primeSumGenerator.getPrimeNumber(new BigInteger("2000000")));
+            System.out.println(primeSumGenerator.getPrimeSum(new BigInteger("2000000")));
             System.out.println(System.currentTimeMillis() - startTime);
         }
 
